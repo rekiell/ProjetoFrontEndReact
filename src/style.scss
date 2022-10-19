@@ -1,0 +1,98 @@
+body {
+    background: rgb(239,108,0);
+    background: linear-gradient(180deg, rgba(239,108,0,1) 0%, rgba(255,183,77,1) ) no-repeat;
+    background-size: auto;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.header_previsao {
+    position: relative;
+    text-align: center;
+    margin-top: 8%;
+    h1{
+        color: white;
+        font-size: 3em;
+    }
+    input {
+        margin-top: 2.5em;
+        width: 90%;
+        height: 2em;
+        padding: 0.5em;
+        border: 1px solid black;
+        border-radius: 90px;
+    }
+    .material-icons {
+        position : absolute;
+        left: 6em;
+        bottom: 0.4em;
+        margin-left: 50%;
+        margin-right: auto;;
+    }
+}
+
+.listaDasCapitais {
+        text-align: center;
+    hr {
+        margin-top: 4em;
+        width: 100%;
+    }
+    h2 {
+        color: white;
+        margin-right: 8em;
+        font-size: 1.7em;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    .header_previsao {
+        position: relative;
+        text-align: center;
+        margin-top: 8%;
+        h1{
+            color: white;
+            font-size: 3em;
+        }
+        input {
+            margin-top: 2.5em;
+            width: 20%;
+            height: 2em;
+            padding: 0.5em;
+            border: 1px solid black;
+            border-radius: 90px;
+        }
+        .material-icons {
+            position : absolute;
+            left: 4.5em;
+            top: 5.8em;
+            margin-left: 50%;
+            margin-right: auto;;
+        }
+    }
+    
+    .listaDasCapitais {
+            text-align: center;
+        hr {
+            margin-top: 4em;
+            width: 30em;
+        }
+        h2 {
+            color: white;
+            margin-right: 8em;
+            font-size: 1.7em;
+        }
+    }
+
+}
+
+.Footer_text {
+    color: white;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+    a:visited, a:link {
+        color: blue;
+    }
+}
