@@ -13,19 +13,19 @@
         const cidade = elementoCidade.value;
         
         temperaturaDasCapitais(cidade)
-            .then( main => {
+            .then( capital => {
     
                 const cabecalho = document.getElementById('root');
     
                 cabecalho.innerHTML += `
                     <p>
-                         Cidade: ${cidade} 
+                         Cidade: ${capital.name} 
                     </p>
                     <p>
-                        Temperatura min: ${main.temp_min}
+                        Temperatura min: ${capital.main.temp_min}
                     </p>
                     <p>
-                        Temperatura max: ${main.temp_max}
+                        Temperatura max: ${capital.main.temp_max}
                     </p>    
                 `
     
