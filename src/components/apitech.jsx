@@ -1,5 +1,5 @@
     async function temperaturaDasCapitais(cidade){
-        const requisicao = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + cidade + '&appid=6877d487eca5720c1a3d29b372414de7')
+        const requisicao = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + cidade + '&appid=')
         
         const cidadeEncontrada = await requisicao.json();
         
