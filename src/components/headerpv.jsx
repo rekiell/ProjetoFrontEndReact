@@ -8,9 +8,9 @@ function HeaderPv (){
       type='text' 
       id='inputcidade'
       name='cidade'  
-      placeholder='Insira aqui o nome da cidade'
+      placeholder='Insira aqui o nome da cidade'   
       />
-     <button onClick={pesquisaCidade}><i className="material-icons">search</i></button> 
+     <button className="header_previsao-btn" onClick={pesquisaCidade}><i className="material-icons">search</i></button> 
     </div>
   </header>
   )
