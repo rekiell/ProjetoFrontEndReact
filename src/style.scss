@@ -1,106 +1,144 @@
 body {
-    background: rgb(239,108,0);
-    background: linear-gradient(180deg, rgba(239,108,0,1) 0%, rgba(255,183,77,1) ) no-repeat;
-    background-size: auto;
-    font-family: 'Roboto Mono', monospace;
-    
+  background: rgb(239, 108, 0);
+  background: linear-gradient(
+      180deg,
+      rgba(239, 108, 0, 1) 0%,
+      rgba(255, 183, 77, 1)
+    )
+    no-repeat;
+  background-size: auto;
+  font-family: "Roboto Mono", monospace;
+
+  /* Inicio do Headerpv */
 }
 .header_previsao {
-    position: relative;
-    text-align: center;
-    margin-top: 8%;
-    h1{
-        color: white;
-        font-size: 3em;
-    }
-    input {
-        margin-top: 2.5em;
-        width: 90%;
-        height: 2em;
-        padding: 0.5em;
-        border: 1px solid black;
-        border-radius: 90px;
-    }
+  position: relative;
+  text-align: center;
+  margin-top: 8%;
+  h1 {
+    color: white;
+    font-size: 3em;
+  }
+  input {
+    margin-top: 2.5em;
+    width: 90%;
+    height: 2em;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 90px;
+  }
 
-    .header_previsao-btn{
-        border: none;
-        background-color: transparent;
-    }
+  .header_previsao-btn {
+    border: none;
+    background-color: transparent;
+  }
 
-    .material-icons {
-        position : absolute;
-        left: 6em;
-        bottom: 0.4em;
-        margin-left: 50%;
-        margin-right: auto;;
-    }
+  .material-icons {
+    position: absolute;
+    left: 6em;
+    bottom: 0.4em;
+    margin-left: 50%;
+    margin-right: auto;
+  }
 }
 
+#pequisa_completa {
+  text-align: center;
+}
+
+/* Fim do Headerpv */
+
+/* Inicio do menu capitais */
 .listaDasCapitais {
-        text-align: center;
-    hr {
-        margin-top: 4em;
-        width: 100%;
-    }
-    h2 {
-        color: white;
-        margin-right: 8em;
-        font-size: 1.7em;
-    }
+  text-align: center;
+  hr {
+    margin-top: 4em;
+    width: 100%;
+  }
+  h2 {
+    color: white;
+    margin-right: 8em;
+    font-size: 1.7em;
+  }
+  p {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: -1em;
+    font-size: 0.95em;
+  }
 }
+
+.lista_cidades {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  text-align: left;
+  justify-content: center;
+  margin-left: -4em;
+
+  li {
+    list-style: none;
+    font-weight: bold; 
+    padding-bottom: 1em;
+    padding-top: 0.2em;
+  }
+
+}
+
+/* Fim do menu capitais */
 
 /* Inicio do media 1200px */
 
-@media (min-width: 1200px){
-    .header_previsao {
-        position: relative;
-        text-align: center;
-        margin-top: 8%;
-        h1{
-            color: white;
-            font-size: 3em;
-        }
-        input {
-            margin-top: 2.5em;
-            width: 20%;
-            height: 2em;
-            padding: 0.5em;
-            border: 1px solid black;
-            border-radius: 90px;
-        }
-        .material-icons {
-            position : absolute;
-            left: 3.8em;
-            top: 5.8em;
-            margin-left: 50%;
-            margin-right: auto;;
-        }
+@media (min-width: 1200px) {
+  .header_previsao {
+    position: relative;
+    text-align: center;
+    margin-top: 8%;
+    h1 {
+      color: white;
+      font-size: 3em;
     }
-    
-    .listaDasCapitais {
-            text-align: center;
-        hr {
-            margin-top: 4em;
-            width: 30em;
-        }
-        h2 {
-            color: white;
-            margin-right: 8em;
-            font-size: 1.7em;
-        }
+    input {
+      margin-top: 2.5em;
+      width: 20%;
+      height: 2em;
+      padding: 0.5em;
+      border: 1px solid black;
+      border-radius: 90px;
     }
+    .material-icons {
+      position: absolute;
+      left: 3.8em;
+      top: 5.8em;
+      margin-left: 50%;
+      margin-right: auto;
+    }
+  }
 
+  .listaDasCapitais {
+    text-align: center;
+    hr {
+      margin-top: 4em;
+      width: 30em;
+    }
+    h2 {
+      color: white;
+      margin-right: 8em;
+      font-size: 1.7em;
+    }
+  }
 }
 
 .Footer_text {
-    color: white;
-    text-align: center;
-    a {
-        text-decoration: none;
-    }
-    a:visited, a:link {
-        color: blue;
-    }
+  color: white;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+  a:visited,
+  a:link {
+    color: blue;
+  }
 }
 
 /* Fim do media 1200px */
